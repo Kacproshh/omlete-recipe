@@ -1,0 +1,21 @@
+@font-face {
+    font-family: omlet;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: omlet2;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+
+body {
+    font-family: omlet, sans-serif;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+}
+
+
+h1 {
+    font-family: omlet2;
+}
