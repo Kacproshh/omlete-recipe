@@ -19,3 +19,9 @@ body {
 h1 {
     font-family: omlet2;
 }
+
+.heading2 {
+    font-family: omlet2;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
