@@ -1,1 +1,1 @@
-coming soon
+A simple recipe for making an omelet made using html and CSS. While creating, I learned many useful functions for positioning elements using grid. Made by Kacprosh
