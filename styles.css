@@ -6,6 +6,7 @@
 @font-face {
     font-family: omlet2;
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
 }
 
 
@@ -28,8 +29,100 @@ h1 {
 
 
 .all {
-    display: flex;
-    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 670px;
+    padding: 50px;
+
+    border-radius: 25px;
+
 
 
   }
+  
+  img {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  p, li, h1 {
+    color: hsl(30, 10%, 34%);
+  }
+
+  h2 {
+    color: hsl(332, 51%, 32%);
+  }
+
+  .prep {
+    background-color: hsl(300, 50%, 98%);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  li {
+    padding: 5px;
+  }
+
+  .ing {
+    border-bottom: 1px solid rgb(218, 218, 218);
+    margin-bottom: 30px;
+  }
+
+  li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+
+.ins {
+    border-bottom: 1px solid rgb(218, 218, 218);
+    margin-bottom: 30px;
+  }
+
+
+
+  .nutrition {
+    display: grid;
+    grid-template-columns: 1fr ; 
+    gap: 20px; 
+  }
+  
+  .nutrient {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative; 
+    padding-bottom: 10px; 
+  }
+  
+  .nutrient::after {
+    content: '';
+    position: absolute;
+    left: -3px; 
+    right: -3px; 
+    bottom: 0; 
+    border-bottom: 1px solid rgb(218, 218, 218); 
+  }
+  
+  .label {
+    text-align: left; 
+    color: hsl(30, 10%, 34%);
+    margin-left: 30px;
+  }
+  
+  .value {
+    text-align: right; 
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    margin-left: 10px; 
+    text-align: left;  
+  }
+  
+ {
+    border-bottom: none; 
+  }
+
+
+  
